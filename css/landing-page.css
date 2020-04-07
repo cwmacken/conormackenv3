@@ -95,6 +95,14 @@ header.masthead h1 {
 
 .testimonials .testimonial-item {
   max-width: 18rem;
+  margin-top: 1rem;
+}
+/* overwrite link highlight */
+a .testimonial-item {
+  color: #212529;
+}
+a:hover {
+  text-decoration: none;
 }
 
 .testimonials .testimonial-item img {
